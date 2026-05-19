@@ -43,7 +43,7 @@ bash ./models/download-ggml-model.sh base
 ### Run phi-scribe
 
 ```bash
-git clone https://github.com/engindearing/phi-scribe
+git clone https://github.com/engindearing-projects/phi-scribe
 cd phi-scribe
 npm install
 cp .env.example .env.local
@@ -114,7 +114,7 @@ The default prompt template follows AAFP *Documentation Tips* and AHIMA CDI BoK 
 
 ## Audit log
 
-phi-scribe maintains a local SQLite audit log at `~/.phi-scribe/audit.db`. It records:
+phi-scribe maintains a local NDJSON audit log at `~/.phi-scribe/audit.ndjson`. It records:
 - Event type (transcription started/completed, note generated/copied/edited)
 - Timestamp
 - Model used
