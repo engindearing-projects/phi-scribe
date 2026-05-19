@@ -20,6 +20,11 @@ export const LOCAL_MODELS: OllamaModel[] = [
   { id: 'phi3.5', label: 'Phi-3.5', type: 'local' },
   { id: 'qwen2.5:7b', label: 'Qwen 2.5 7B', type: 'local' },
   { id: 'llama3.1:70b', label: 'Llama 3.1 70B', type: 'local' },
+  { id: 'gemma4:26b', label: 'Gemma 4 26B', type: 'local' },
+  { id: 'gemma2:9b', label: 'Gemma 2 9B', type: 'local' },
+  { id: 'phi3:mini', label: 'Phi-3 Mini', type: 'local' },
+  { id: 'phi3:medium', label: 'Phi-3 Medium', type: 'local' },
+  { id: 'mistral-nemo:12b', label: 'Mistral Nemo 12B', type: 'local' },
 ];
 
 export const CLOUD_MODELS: CloudModel[] = [
