@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build
+.next/
+out/
+build/
+
+# Environment — NEVER commit API keys
+.env
+.env.local
+.env.*.local
+
+# Audit database — contains metadata about clinical sessions
+.phi-scribe/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
